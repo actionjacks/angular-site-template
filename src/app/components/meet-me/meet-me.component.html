@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-12">
+    <h2 class="text-center">
+      H2 title
+    </h2>
+  </div>
+  <div class="col-md-6 col-12" *ngFor="let people of peopleList">
+    <div class="row text-center">
+      <div class="col-12">
+        <img src="{{people.picture}}" alt="">
+      </div>
+      <div class="col-12 my-name">{{people.name}}</div>
+      <div class="col-12 my-role">{{people.role}}</div>
+      <div class="col-12 my-description">{{people.description}}</div>
+      <div class="col-12 my-facebook">{{people.facebook}}</div>
+      <div class="col-12 my-twitter">{{people.twitter}}</div>
+      <div class="col-12 my-instagram">{{people.instagram}}</div>
+    </div>
+
+  </div>
+</div>
